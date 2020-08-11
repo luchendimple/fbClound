@@ -33,6 +33,36 @@
     <None Include="app.ts" />
     <None Include="routes\index.ts" />
     <None Include="routes\user.ts" />
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include="app.js" />
+    <Content Include="app.js.map" />
+    <Content Include="bin\Microsoft.NodejsTools.WebRole.dll" />
+    <Content Include="obj\Debug\fbClound.njsproj.CoreCompileInputs.cache" />
+    <Content Include="obj\Debug\fbClound.njsproj.FileListAbsolute.txt" />
+    <None Include="PublishProfiles\FolderProfile.pubxml" />
+    <Content Include="package-lock.json" />
+    <Content Include="PublishProfiles\FolderProfile.pubxml.user" />
+    <None Include="PublishProfiles\FolderProfile1.pubxml" />
+    <Content Include="PublishProfiles\FolderProfile1.pubxml.user" />
+    <None Include="PublishProfiles\FolderProfile2.pubxml" />
+    <Content Include="PublishProfiles\FolderProfile2.pubxml.user" />
+    <None Include="PublishProfiles\FolderProfile3.pubxml" />
+    <Content Include="PublishProfiles\FolderProfile3.pubxml.user" />
+    <None Include="PublishProfiles\FolderProfile4.pubxml" />
+    <Content Include="PublishProfiles\FolderProfile4.pubxml.user" />
+    <None Include="PublishProfiles\FolderProfile5.pubxml" />
+    <Content Include="PublishProfiles\FolderProfile5.pubxml.user" />
+    <None Include="PublishProfiles\FolderProfile6.pubxml" />
+    <Content Include="PublishProfiles\FolderProfile6.pubxml.user" />
+    <None Include="PublishProfiles\FolderProfile7.pubxml" />
+    <Content Include="PublishProfiles\FolderProfile7.pubxml.user" />
+    <None Include="PublishProfiles\FolderProfile8.pubxml" />
+    <Content Include="PublishProfiles\FolderProfile8.pubxml.user" />
+    <Content Include="routes\index.js" />
+    <Content Include="routes\index.js.map" />
+    <Content Include="routes\user.js" />
+    <Content Include="routes\user.js.map" />
     <Content Include="tsconfig.json" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\main.css" />
@@ -42,10 +72,14 @@
     <Content Include="views\error.pug" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="obj\" />
+    <Folder Include="obj\Debug\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />
     <Folder Include="public\javascripts\" />
     <Folder Include="public\stylesheets\" />
+    <Folder Include="PublishProfiles\" />
     <Folder Include="routes\" />
     <Folder Include="views\" />
   </ItemGroup>
